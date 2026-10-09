@@ -99,7 +99,7 @@ The system:
 ## 🖼️ Block Diagram
 
 <p align="center">
-    <img src="images/Block_Diagram.png" alt="Project Block Diagram" width="900">
+    <img src="Block_Diagram.png" alt="Project Block Diagram" width="900">
 </p>
 
 ---
