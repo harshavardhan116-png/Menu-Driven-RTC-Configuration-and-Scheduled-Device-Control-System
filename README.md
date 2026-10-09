@@ -1,3 +1,4 @@
+
 # ⏰ Menu-Driven RTC Configuration and Scheduled Device Control System
 
 ![Platform](https://img.shields.io/badge/Platform-LPC2148%20(ARM7)-blue)
@@ -153,7 +154,7 @@ Connect each part one by one. Tick each box as you finish.
 ### ✅ 1. 16×2 LCD (HD44780)
 
 <p align="center">
-    <img src="images/Circuit_LCD.png" alt="LCD Wiring Diagram" width="700">
+    <img src="Circuit_LCD.png" alt="LCD Wiring Diagram" width="700">
 </p>
 
 | LPC2148 | 16×2 LCD (HD44780) |
@@ -169,7 +170,7 @@ Connect each part one by one. Tick each box as you finish.
 ### ✅ 2. 4×4 Matrix Keypad
 
 <p align="center">
-    <img src="images/Circuit_Keypad.png" alt="Keypad Wiring Diagram" width="700">
+    <img src="Circuit_Keypad.png" alt="Keypad Wiring Diagram" width="700">
 </p>
 
 | LPC2148 | 4×4 Keypad |
@@ -180,7 +181,7 @@ Connect each part one by one. Tick each box as you finish.
 ### ✅ 3. Device (LED)
 
 <p align="center">
-    <img src="images/Circuit_LED.png" alt="LED Wiring Diagram" width="500">
+    <img src="Circuit_LED.png" alt="LED Wiring Diagram" width="500">
 </p>
 
 | LPC2148 | Device (LED) |
@@ -193,7 +194,7 @@ P1.30 **HIGH** → LED **ON** (device active). P1.30 **LOW** → LED **OFF**.
 ### ✅ 4. Configuration Switch (EINT0)
 
 <p align="center">
-    <img src="images/Circuit_Switch.png" alt="Configuration Switch Wiring Diagram" width="500">
+    <img src="Circuit_Switch.png" alt="Configuration Switch Wiring Diagram" width="500">
 </p>
 
 | LPC2148 | Push Button |
@@ -455,11 +456,11 @@ sequenceDiagram
 
 <tr>
 <td align="center">
-<img src="images/Clock_View.png" alt="Clock View" width="420"/>
+<img src="Clock_View.png" alt="Clock View" width="420"/>
 <br><b>Time · Day · Date + Device Icon</b>
 </td>
 <td align="center">
-<img src="images/Schedule_View.png" alt="Schedule View" width="420"/>
+<img src="Schedule_View.png" alt="Schedule View" width="420"/>
 <br><b>ON / OFF Schedule Display</b>
 </td>
 </tr>
@@ -471,11 +472,11 @@ sequenceDiagram
 
 <tr>
 <td align="center">
-<img src="images/Main_Menu.png" alt="Main Menu" width="420"/>
+<img src="Main_Menu.png" alt="Main Menu" width="420"/>
 <br><b>EINT0 Triggered Configuration Menu</b>
 </td>
 <td align="center">
-<img src="images/Edit_RTC_Menu.png" alt="Edit RTC Menu" width="420"/>
+<img src="Edit_RTC_Menu.png" alt="Edit RTC Menu" width="420"/>
 <br><b>Hour · Minute · Day · Date · Month · Year</b>
 </td>
 </tr>
@@ -487,11 +488,11 @@ sequenceDiagram
 
 <tr>
 <td align="center">
-<img src="images/Edit_Schedule_Menu.png" alt="Edit Schedule Menu" width="420"/>
+<img src="Edit_Schedule_Menu.png" alt="Edit Schedule Menu" width="420"/>
 <br><b>ON / OFF Time Configuration</b>
 </td>
 <td align="center">
-<img src="images/Input_Validation.png" alt="Input Validation" width="420"/>
+<img src="Input_Validation.png" alt="Input Validation" width="420"/>
 <br><b>Range Check and Confirmation</b>
 </td>
 </tr>
@@ -502,7 +503,7 @@ sequenceDiagram
 
 <tr>
 <td colspan="2" align="center">
-<img src="images/Device_ON_OFF.png" alt="Device ON and OFF" width="520"/>
+<img src="Device_ON_OFF.png" alt="Device ON and OFF" width="520"/>
 <br><b>LED ON (Scheduled) vs LED OFF — Driven by RTC Comparison</b>
 </td>
 </tr>
@@ -822,6 +823,6 @@ Menu-Driven-RTC-Scheduled-Device-Control/
 ---
 ## Author
 
-**Jithendra Sadineni**
+**Harsha Vardhan Mutyala**
 
 </div>
